@@ -106,9 +106,38 @@ def calculate_inventory_value():
     print("Total inventory value:", total)
 
 
-add_product()
-add_product()
-display_products()
-search_product()
-update_quantity()
-calculate_inventory_value()
+# Initialization: start the inventory menu
+while True:
+
+    # Condition: continue until the user chooses Exit
+    print("\n--- INVENTORY MANAGEMENT ---")
+    print("1. Add Product")
+    print("2. Display Products")
+    print("3. Search Product")
+    print("4. Update Quantity")
+    print("5. Calculate Total Inventory Value")
+    print("6. Exit")
+
+    choice = input("Enter your choice: ")
+
+    if choice == "1":
+        add_product()
+
+    elif choice == "2":
+        display_products()
+
+    elif choice == "3":
+        search_product()
+
+    elif choice == "4":
+        update_quantity()
+
+    elif choice == "5":
+        calculate_inventory_value()
+
+    elif choice == "6":
+        print("Inventory management closed.")
+        break
+
+    else:
+        print("Invalid choice. Please select a valid option.")
