@@ -24,3 +24,8 @@ Login successful!
 Welcome, admin.
 
 Logout successful.
+
+
+Login failed.
+Attempts remaining: 0
+Account locked.
