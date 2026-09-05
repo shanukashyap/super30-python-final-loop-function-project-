@@ -1,12 +1,35 @@
+
 """Super30 Python Utility Application."""
+
+
+def get_valid_number(message):
+    """Get a valid number from the user."""
+    while True:
+        try:
+            number = float(input(message))
+            return number
+
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+
+
+def get_valid_integer(message):
+    """Get a valid integer from the user."""
+    while True:
+        try:
+            number = int(input(message))
+            return number
+
+        except ValueError:
+            print("Invalid input. Please enter a valid integer.")
 
 
 def calculator():
     """Perform basic arithmetic operations."""
 
-    num1 = float(input("Enter first number: "))
+    num1 = get_valid_number("Enter first number: ")
     operator = input("Enter operator (+, -, *, /): ")
-    num2 = float(input("Enter second number: "))
+    num2 = get_valid_number("Enter second number: ")
 
     if operator == "+":
         print("Result:", num1 + num2)
@@ -41,7 +64,7 @@ def palindrome_checker():
 def prime_checker():
     """Check whether a number is prime."""
 
-    number = int(input("Enter number: "))
+    number = get_valid_integer("Enter number: ")
 
     if number < 2:
         print("Not a prime number.")
@@ -67,7 +90,11 @@ def prime_checker():
 def factorial():
     """Calculate factorial using a while loop."""
 
-    number = int(input("Enter number: "))
+    number = get_valid_integer("Enter number: ")
+
+    if number < 0:
+        print("Factorial is not defined for negative numbers.")
+        return
 
     result = 1
     i = 1
@@ -82,7 +109,7 @@ def factorial():
 def multiplication_table():
     """Display multiplication table."""
 
-    number = int(input("Enter number: "))
+    number = get_valid_integer("Enter number: ")
 
     i = 1
 
@@ -94,7 +121,7 @@ def multiplication_table():
 def number_analyzer():
     """Analyze a number as positive, negative, even or odd."""
 
-    number = int(input("Enter number: "))
+    number = get_valid_integer("Enter number: ")
 
     if number > 0:
         print("Positive")
