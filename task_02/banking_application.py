@@ -14,7 +14,12 @@ def deposit():
     """Deposit money into the account."""
     global balance
 
-    amount = float(input("Enter deposit amount: "))
+    while True:
+        try:
+            amount = float(input("Enter deposit amount: "))
+            break
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
 
     if amount > 0:
         balance = balance + amount
@@ -28,7 +33,12 @@ def withdraw():
     """Withdraw money if sufficient balance is available."""
     global balance
 
-    amount = float(input("Enter withdrawal amount: "))
+    while True:
+        try:
+            amount = float(input("Enter withdrawal amount: "))
+            break
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
 
     if amount <= 0:
         print("Invalid amount.")
