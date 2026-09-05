@@ -151,3 +151,127 @@ super30-python-final-loop-function-project/
 ├── task_10/
 ├── task_11/
 └── task_12/
+
+
+
+some uscases for some input and output
+
+PS E:\super30-python-final-loop-function-project> python .\task_01\student_result.py
+Enter marks for subject 1: 78
+Enter marks for subject 2: 45
+Enter marks for subject 3: 56
+Enter marks for subject 4: 87
+Enter marks for subject 5: 90
+
+--- STUDENT RESULT ---
+Marks: [78.0, 45.0, 56.0, 87.0, 90.0]
+Total: 356.0
+Percentage: 71.2
+Grade: B
+Result: Pass
+PS E:\super30-python-final-loop-function-project> python .\task_02\student_result.py 
+C:\Users\URMIL\anaconda3\python.exe: can't open file 'E:\\super30-python-final-loop-function-project\\task_02\\student_result.py': [Errno 2] No such file or directory
+PS E:\super30-python-final-loop-function-project> python .\task_02\banking_application.py
+
+--- BANKING MENU ---
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Transaction History
+5. Exit
+Enter your choice: 1
+Current balance: 10000
+
+--- BANKING MENU ---
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Transaction History
+5. Exit
+Enter your choice: 2
+Enter deposit amount: 2000
+Deposit successful.
+
+--- BANKING MENU ---
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Transaction History
+5. Exit
+Enter your choice: 3
+Enter withdrawal amount: 3000
+Withdrawal successful.
+
+--- BANKING MENU ---
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Transaction History
+5. Exit
+Enter your choice: 4
+
+--- TRANSACTION HISTORY ---
+Deposited: 2000.0
+Withdrawn: 3000.0
+
+--- BANKING MENU ---
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Transaction History
+5. Exit
+Enter your choice: 5
+Thank you for using the banking application.
+PS E:\super30-python-final-loop-function-project> python .\task_03\inventory_management.py
+Enter product name: laptop
+Enter price: 70000
+Enter quantity: 2
+Product added successfully.
+Enter product name: python
+Enter price: 400000 
+Enter quantity: 3
+Product added successfully.
+
+--- PRODUCTS ---
+laptop | Price: 70000.0 | Quantity: 2
+python | Price: 400000.0 | Quantity: 3
+Enter product name to search: python                                  
+Product found: {'name': 'python', 'price': 400000.0, 'quantity': 3}
+Enter product name: iphone
+Product not found.
+Total inventory value: 1340000.0
+PS E:\super30-python-final-loop-function-project>  python .\task_04\quiz_application.p    
+C:\Users\URMIL\anaconda3\python.exe: can't open file 'E:\\super30-python-final-loop-function-project\\task_04\\quiz_application.p': [Errno 2] No such file or directory
+PS E:\super30-python-final-loop-function-project>  python .\task_04\quiz_application.py   
+
+What keyword is used to define a function in Python?
+Your answer: iio
+Incorrect.
+
+Which loop is commonly used when the number of iterations is known?
+Your answer: i fodn
+Incorrect.
+
+Which keyword is used to return a value from a function?
+Your answer: uop
+Incorrect.
+
+Which data type stores key-value pairs?
+Your answer: rtyuio
+Incorrect.
+
+Which loop continues while a condition is true?
+Your answer: tyuio
+Incorrect.
+
+--- QUIZ RESULT ---
+Score: 0 / 5
+Percentage: 0.0
+PS E:\super30-python-final-loop-function-project> python .\task_05\employee_salary.py
+C:\Users\URMIL\anaconda3\python.exe: can't open file 'E:\\super30-python-final-loop-function-project\\task_05\\employee_salary.py': [Errno 2] No such file or directory
+PS E:\super30-python-final-loop-function-project> python .\task_06\employee_salary.py
+Total payroll: 190000
+Average salary: 38000.0
+Highest salary: 60000
+Lowest salary: 25000
+Employees above average: [45000, 60000]
