@@ -10,3 +10,17 @@ Uses predefined credentials, maximum login attempts, successful/failed login han
 ```bash
 python authentication.py
 ```
+Enter username: admin
+Enter password: wrong
+
+Login failed.
+Attempts remaining: 2
+
+Enter username: admin
+Enter password: admin123
+
+Login successful!
+
+Welcome, admin.
+
+Logout successful.
