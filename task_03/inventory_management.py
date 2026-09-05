@@ -1,14 +1,48 @@
+
 """Inventory Management System."""
 
 
 products = []
 
 
+def get_positive_price():
+    """Get a valid positive price from the user."""
+    while True:
+        try:
+            price = float(input("Enter price: "))
+
+            if price <= 0:
+                print("Price must be greater than 0.")
+                continue
+
+            return price
+
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+
+
+def get_positive_quantity():
+    """Get a valid positive quantity from the user."""
+    while True:
+        try:
+            quantity = int(input("Enter quantity: "))
+
+            if quantity <= 0:
+                print("Quantity must be greater than 0.")
+                continue
+
+            return quantity
+
+        except ValueError:
+            print("Invalid input. Please enter a valid whole number.")
+
+
 def add_product():
     """Add a new product to inventory."""
     name = input("Enter product name: ")
-    price = float(input("Enter price: "))
-    quantity = int(input("Enter quantity: "))
+
+    price = get_positive_price()
+    quantity = get_positive_quantity()
 
     product = {
         "name": name,
@@ -54,7 +88,7 @@ def update_quantity():
 
     for product in products:
         if product["name"].lower() == name.lower():
-            quantity = int(input("Enter new quantity: "))
+            quantity = get_positive_quantity()
             product["quantity"] = quantity
             print("Quantity updated.")
             return
