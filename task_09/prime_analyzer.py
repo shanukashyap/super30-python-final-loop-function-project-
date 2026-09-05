@@ -1,4 +1,16 @@
+
 """Prime Number Analyzer."""
+
+
+def get_valid_integer(message):
+    """Get a valid integer from the user."""
+    while True:
+        try:
+            number = int(input(message))
+            return number
+
+        except ValueError:
+            print("Invalid input. Please enter a valid integer.")
 
 
 def is_prime(number):
@@ -55,8 +67,9 @@ def analyze_primes(primes):
     print("Largest prime:", largest)
 
 
-start = int(input("Enter start number: "))
-end = int(input("Enter end number: "))
+# Get valid integer inputs
+start = get_valid_integer("Enter start number: ")
+end = get_valid_integer("Enter end number: ")
 
 primes = find_primes(start, end)
 
