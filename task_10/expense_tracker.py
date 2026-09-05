@@ -1,13 +1,31 @@
+
 """Expense Tracker Application."""
 
 
 expenses = []
 
 
+def get_positive_amount():
+    """Get a valid positive expense amount."""
+    while True:
+        try:
+            amount = float(input("Enter amount: "))
+
+            if amount <= 0:
+                print("Amount must be greater than 0.")
+                continue
+
+            return amount
+
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+
+
 def add_expense():
     """Add an expense to the tracker."""
     name = input("Enter expense name: ")
-    amount = float(input("Enter amount: "))
+
+    amount = get_positive_amount()
 
     expense = {
         "name": name,
