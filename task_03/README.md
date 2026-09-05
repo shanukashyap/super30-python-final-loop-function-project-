@@ -6,3 +6,13 @@ Maintain products with name, price, and quantity. The program supports adding, d
 ```bash
 python inventory_management.py
 ```
+Enter product name: Laptop
+Enter price: 55000
+Enter quantity: 2
+
+Product added successfully.
+
+--- INVENTORY ---
+Laptop | Price: ₹55000 | Quantity: 2
+
+Total inventory value: ₹110000
