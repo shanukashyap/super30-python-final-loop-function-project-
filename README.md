@@ -87,17 +87,17 @@ Each program should be tested with:
 
 ## YouTube Demonstration
 
-Add your public YouTube demonstration link here after recording:
+Add my YouTube demonstration link here after recording:
 
-`https://www.youtube.com/watch?v=YOUR_VIDEO_ID`
+**https://youtu.be/IjxUZWOD7ug**
 
-The video should explain the problem statement, approach, important functions, loop choices, execution, test cases, challenges/errors, and learning outcomes.
+The video explain the problem statement, approach, important functions, loop choices, execution, test cases, challenges/errors, and learning outcomes.
 
 ## GitHub Submission
 
 Repository name:
 
-`super30-python-final-loop-function-project`
+`super30-python-final-loop-function-project-`
 
 Final submission should contain exactly:
 1. GitHub Repository link
@@ -169,8 +169,7 @@ Total: 356.0
 Percentage: 71.2
 Grade: B
 Result: Pass
-PS E:\super30-python-final-loop-function-project> python .\task_02\student_result.py 
-C:\Users\URMIL\anaconda3\python.exe: can't open file 'E:\\super30-python-final-loop-function-project\\task_02\\student_result.py': [Errno 2] No such file or directory
+
 PS E:\super30-python-final-loop-function-project> python .\task_02\banking_application.py
 
 --- BANKING MENU ---
@@ -267,11 +266,220 @@ Incorrect.
 --- QUIZ RESULT ---
 Score: 0 / 5
 Percentage: 0.0
-PS E:\super30-python-final-loop-function-project> python .\task_05\employee_salary.py
-C:\Users\URMIL\anaconda3\python.exe: can't open file 'E:\\super30-python-final-loop-function-project\\task_05\\employee_salary.py': [Errno 2] No such file or directory
+
 PS E:\super30-python-final-loop-function-project> python .\task_06\employee_salary.py
 Total payroll: 190000
 Average salary: 38000.0
 Highest salary: 60000
 Lowest salary: 25000
 Employees above average: [45000, 60000]
+PS E:\super30-python-final-loop-function-project> python .\task_05\number_analysis.py
+Largest: 20
+Smallest: -5
+Total: 49
+Average: 7.0
+Even count: 4
+Odd count: 3
+Positive count: 5
+Negative count: 2
+PS E:\super30-python-final-loop-function-project> python .\task_07\shopping_cart.py  
+
+--- SHOPPING CART ---
+1. Add Product
+2. Remove Product
+3. View Cart
+4. Calculate Bill
+5. Exit
+Enter choice: 1
+Enter product name: laptop
+Enter product price: 700000
+Enter quantity: 2
+Product added.
+
+--- SHOPPING CART ---
+1. Add Product
+2. Remove Product
+3. View Cart
+4. Calculate Bill
+5. Exit
+Enter choice: 2
+Enter product name to remove: phone
+Product not found.
+
+--- SHOPPING CART ---
+1. Add Product
+2. Remove Product
+3. View Cart
+4. Calculate Bill
+5. Exit
+Enter choice: 3
+{'name': 'laptop', 'price': 700000.0, 'quantity': 2}
+
+--- SHOPPING CART ---
+1. Add Product
+2. Remove Product
+3. View Cart
+4. Calculate Bill
+5. Exit
+Enter choice: 4
+Total bill: 1400000.0
+
+--- SHOPPING CART ---
+1. Add Product
+2. Remove Product
+3. View Cart
+4. Calculate Bill
+5. Exit
+Enter choice: 5
+Thank you for shopping.
+PS E:\super30-python-final-loop-function-project> python .\task_08\password_checker.py
+Enter password: tyui
+Weak password
+ 
+PS E:\super30-python-final-loop-function-project> python .\task_09\prime_analyzer.py                   
+Enter start number: 3
+Enter end number: 9
+Prime numbers: [3, 5, 7]
+Number of primes: 3
+Sum of primes: 15
+Largest prime: 7
+PS E:\super30-python-final-loop-function-project> python .\task_10\expense_tracker.py
+
+--- EXPENSE TRACKER ---
+1. Add Expense
+2. View Expenses
+3. Calculate Total
+4. Highest Expense
+5. Exit
+Enter choice: 1
+Enter expense name: laptop
+Enter amount: 56789
+Expense added.
+
+--- EXPENSE TRACKER ---
+1. Add Expense
+2. View Expenses
+3. Calculate Total
+4. Highest Expense
+5. Exit
+Enter choice: 2
+laptop : 56789.0
+
+--- EXPENSE TRACKER ---
+1. Add Expense
+2. View Expenses
+3. Calculate Total
+4. Highest Expense
+5. Exit
+Enter choice: 3
+Total expenses: 56789.0
+
+--- EXPENSE TRACKER ---
+1. Add Expense
+2. View Expenses
+3. Calculate Total
+4. Highest Expense
+5. Exit
+Enter choice: 4
+Highest expense: laptop 56789.0
+
+--- EXPENSE TRACKER ---
+1. Add Expense
+2. View Expenses
+3. Calculate Total
+4. Highest Expense
+5. Exit
+Enter choice: 5
+Expense tracker closed.
+PS E:\super30-python-final-loop-function-project> python .\task_11\authentication.py
+Enter username: urmikl
+Enter password: 567890
+Login failed.
+Attempts remaining: 2
+Enter username: tyuio
+Enter password: 5278
+Login failed.
+Attempts remaining: 1
+Enter username: admin
+Enter password: python123
+Login successful.
+
+1. Logout
+Enter choice: 1
+You have been logged out.
+
+PS E:\super30-python-final-loop-function-project> python .\task_12\utility_application.py
+
+===== SUPER30 PYTHON UTILITY =====
+1. Calculator
+2. Palindrome Checker
+3. Prime Checker
+4. Factorial
+5. Multiplication Table
+6. Number Analyzer
+7. Exit
+Enter your choice: 1
+Enter first number: 24
+Enter operator (+, -, *, /): -
+Enter second number: 24
+Result: 0.0
+
+===== SUPER30 PYTHON UTILITY =====
+1. Calculator
+2. Palindrome Checker
+3. Prime Checker
+4. Factorial
+5. Multiplication Table
+6. Number Analyzer
+7. Exit
+Enter your choice: 2
+Enter text: urmil
+It is not a palindrome.
+
+===== SUPER30 PYTHON UTILITY =====
+1. Calculator
+2. Palindrome Checker
+3. Prime Checker
+4. Factorial
+5. Multiplication Table
+6. Number Analyzer
+7. Exit
+Enter your choice: 3
+Enter number: 5
+Prime number.
+
+===== SUPER30 PYTHON UTILITY =====
+1. Calculator
+2. Palindrome Checker
+3. Prime Checker
+4. Factorial
+5. Multiplication Table
+6. Number Analyzer
+7. Exit
+Enter your choice: 4
+Enter number: 6
+Factorial: 720
+
+===== SUPER30 PYTHON UTILITY =====
+1. Calculator
+2. Palindrome Checker
+3. Prime Checker
+4. Factorial
+5. Multiplication Table
+6. Number Analyzer
+7. Exit
+Enter your choice: 6
+Enter number: 34
+Positive
+Even
+
+===== SUPER30 PYTHON UTILITY =====
+1. Calculator
+2. Palindrome Checker
+3. Prime Checker
+4. Factorial
+5. Multiplication Table
+6. Number Analyzer
+7. Exit
+Enter your choice: 7
+Thank you for using Super30 Python Utility.
